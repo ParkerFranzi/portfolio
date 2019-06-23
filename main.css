@@ -11,20 +11,26 @@
     line-height: 1.5;
   }
   
-  nav,
+  header,
   footer {
     padding: 1% 0;
     background-color: #aaa;
   }
-  
-  header {
+  ul {
+    list-style-type: none;
+  }
+  .tech-used li{
+    display: inline-block;
+    padding: 10px;
+  }
+  /*header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
   }
-  
+  */
   section {
     min-height: 200px;
     padding: 6% 0;
