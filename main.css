@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans",
+  font-family: "Roboto",
   sans-serif; 
   font-size: 20px;
   color: #fff;
@@ -68,6 +68,9 @@ a:hover {
 .logo h1 {
   margin: 0;
   padding: 10px;
+  font-size: 26px;
+}
+.logo h1 a {
   font-size: 26px;
 }
 nav {
@@ -206,6 +209,18 @@ li {
 }
 .tech-used li {
   padding: 10px;
+}
+.link-button {
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+}
+.link-button:hover {
+  text-decoration: none;
+  border-color: rgb(0, 206, 209);
+  transition: all .5s;
 }
 @media screen and (min-width: 676px) {
 

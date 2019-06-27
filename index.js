@@ -1,5 +1,13 @@
 'use strict';
-
+function homePage() {
+    $('.home-button').click(function(event) {
+        event.preventDefault();
+        $('.landing-banner').fadeIn();
+        $('.projects-banner').fadeOut();
+        $('.about-banner').fadeOut();
+        $('.contact-banner').fadeOut();
+    })
+}
 function projectsPage() {
     $('.portfolio-button').click(function(event) {
         event.preventDefault();
@@ -39,6 +47,7 @@ function hamburger() {
 }
 
 function pageStart() {
+    homePage();
     projectsPage();
     aboutPage();
     contactPage();

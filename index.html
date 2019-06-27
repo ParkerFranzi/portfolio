@@ -4,6 +4,7 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -11,13 +12,13 @@
         <div class="container">
             <div class="row">
                 <div class="logo">
-                    <h1>Parker Franzi</h1>
+                    <h1><a class="home-button" href="#">Parker Franzi</a></h1>
                 </div>
                 <nav role="navigation">
                     <ul class="main-nav">
-                        <li><a class="about-button js-button" href="#" role="button">About Me</a></li>
-                        <li><a class="portfolio-button js-button" href="#" role="button">Portfolio</a></li>
-                        <li><a class="contact-button js-button" href="#" role="button">Contact</a></li>
+                        <li><a class="about-button" href="#" role="button">About Me</a></li>
+                        <li><a class="portfolio-button" href="#" role="button">Portfolio</a></li>
+                        <li><a class="contact-button" href="#" role="button">Contact</a></li>
                     </ul>
                     <div class="hamburger">
                         <div></div>
@@ -26,9 +27,9 @@
                     </div>
                 </nav>
                 <ul class="hamburger-nav">
-                    <li><a class="about-button js-button" href="#" role="button">About Me</a></li>
-                    <li><a class="portfolio-button js-button" href="#" role="button">Portfolio</a></li>
-                    <li><a class="contact-button js-button" href="#" role="button">Contact</a></li>
+                    <li><a class="about-button" href="#" role="button">About Me</a></li>
+                    <li><a class="portfolio-button" href="#" role="button">Portfolio</a></li>
+                    <li><a class="contact-button" href="#" role="button">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +48,7 @@
 
         <section class="about-banner">
             <div class="container">
-                <h2>About Me</h2>
+                <h1>About Me</h1>
                 <div class="row">
                     <div class="col-6">
                         <img class ="circle-img" src="profile-img.png" alt="profile picture of me" />
@@ -66,6 +67,10 @@
                 <div class="row">
                     <div class="col-6">
                         <img src="quiz-app.png" alt="screenshot of my quiz app" />
+                        <div class="links">
+                            <a class="link-button" href="https://github.com/ParkerFranzi/quiz-app">GitHub Repo</a>
+                            <a class="link-button" href="https://parkerfranzi.github.io/quiz-app/">Live</a> 
+                        </div>
                     </div>
                     <div class="col-6">
                         <p>Using jQuery and manipulating form fields I create a single page app that was made from scratch given a series of user and technical requirements to be user-friendly and responsive.  Some of the requirements include:</p>
@@ -82,10 +87,6 @@
                             <li><img src="jquery.png" alt="html5 logo" /></li>
                             <li><img src="GitHub.png" alt="html5 logo" /></li>
                         </ul>
-                        <div class="links">
-                            <a class="link-button" href="https://github.com/ParkerFranzi/quiz-app">GitHub Repo</a>
-                            <a class="link-button" href="https://parkerfranzi.github.io/quiz-app/">Live</a> 
-                        </div>
                     </div>
                 </div>
 
@@ -94,12 +95,10 @@
     </main>
     <section class="contact-banner">
         <div class="container">
-            <h2>Contact</h2>
-            <ul class="contact-nav">
-                <li><a href="mailto:parker@franziweb.com">Email</a></li>
-                <li><a href="https://github.com/ParkerFranzi/">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/parkerfranzi/">LinkedIn</a></li>
-            </ul>
+            <h1>Contact</h1>
+            <a class="link-button" href="mailto:parker@franziweb.com">Email</a>
+            <a class="link-button" href="https://github.com/ParkerFranzi/">GitHub</a>
+            <a class="link-button" href="https://www.linkedin.com/in/parkerfranzi/">LinkedIn</a>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
