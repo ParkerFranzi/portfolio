@@ -6,6 +6,7 @@ function homePage() {
         $('.projects-banner').fadeOut();
         $('.about-banner').fadeOut();
         $('.contact-banner').fadeOut();
+        $('.hamburger-nav').removeClass('show');
     })
 }
 function projectsPage() {
@@ -15,10 +16,7 @@ function projectsPage() {
         $('.landing-banner').fadeOut();
         $('.about-banner').fadeOut();
         $('.contact-banner').fadeOut();
-        /*$('.projects-banner').addClass('show');
-        $('.landing-banner').removeClass('show');
-        $('.about-banner').removeClass('show');
-        */
+        $('.hamburger-nav').removeClass('show');
     })
 }
 function aboutPage() {
@@ -28,6 +26,7 @@ function aboutPage() {
         $('.landing-banner').fadeOut();
         $('.projects-banner').fadeOut();
         $('.contact-banner').fadeOut();
+        $('.hamburger-nav').removeClass('show');
     })
 }
 function contactPage() {
@@ -37,6 +36,7 @@ function contactPage() {
         $('.about-banner').fadeOut();
         $('.landing-banner').fadeOut();
         $('.projects-banner').fadeOut();
+        $('.hamburger-nav').removeClass('show');
     })
 }
 function hamburger() {
