@@ -200,7 +200,6 @@ li {
 }
 .tech-used {
   display: flex;
-  margin-top: 15px;
   background-color: #fff;
   justify-content: space-evenly;
 }
